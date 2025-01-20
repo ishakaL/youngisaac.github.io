@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #f4f4f4f4;
+    color: #333;
+}
+headre {
+    background-color: #333;
+    color: white;
+    padding: i0px 0;
+}
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* section styles */
+section {
+    padding: 50px 20px;
+    margin-bottom: 20px
+}
+#home {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+#about,#skills,#contact {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0,0,0.1);
+}
+#about p, #skills ul,#contact p {
+    font-size: 1.1em;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+#skilss ul li {
+    margin-bottom: 10px;
+}
+a {
+    color: #4CAF50;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Footer styles*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
